@@ -1,5 +1,5 @@
 :root {
-    --antiquewhite: #faebd7;
+: #6fe0e4;
 }
 
 
@@ -7,7 +7,7 @@
 
 
 body {
-    background-color: var(--antiquewhite);
+    background-color: var(blue);
 }
 
 img {
