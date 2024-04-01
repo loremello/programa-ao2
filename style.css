@@ -1,3 +1,21 @@
-:root{
-    --preto:#000000;
+:root {
+    --antiquewhite: #faebd7;
+}
+
+
+
+
+
+body {
+    background-color: var(--antiquewhite);
+}
+
+img {
+    width: 30%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
