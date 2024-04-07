@@ -1,13 +1,11 @@
 :root {
-:antiquewhite:#faebd7
+    --azul: #51d6d0;
+--ciano: #acffff; 
 }
 
 
-
-
-
 body {
-    background-color: var(blue);
+    background-color: var(--azul);
 }
 
 img {
@@ -18,4 +16,19 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+#Quem-somos{
+    display: flex;
+    background-color: var(--azul);
+    border-radius: 34px;
+    border-style: solid;
+    border-width: 30px;
+    border: dashed 3px rgb(172, 255, 255);
+    margin: 20px;
+    padding: 10px;
+}
+}
+.img-intro{
+    width: 60%;
 }
