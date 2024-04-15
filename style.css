@@ -36,4 +36,9 @@ header{
 .fotos{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    
+}
+footer{
+    background-color: antiquewhite
+    color(srgb red green blue)
 }
