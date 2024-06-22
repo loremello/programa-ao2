@@ -8,21 +8,28 @@ body {
     padding: 0;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 header {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
-    text-align: center;
 }
 
 header h1 {
     margin: 0;
     font-size: 2em;
+    text-align: center;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -40,12 +47,14 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Estilos para seções */
+main {
+    padding: 20px 0;
+}
 
 section {
-    padding: 20px;
-    margin-bottom: 20px;
     background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -67,39 +76,28 @@ section ul {
 }
 
 footer {
-    text-align: center;
-    padding: 10px 0;
     background-color: #333;
     color: #fff;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    text-align: center;
+    padding: 10px 0;
 }
 
 footer p {
     margin: 0;
 }
 
-/* Estilos para links */
-
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Responsividade */
-
 @media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
     header h1 {
         font-size: 1.5em;
     }
-    
+
     nav ul li {
         display: block;
         margin: 10px 0;
     }
 }
+
