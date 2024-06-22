@@ -83,7 +83,7 @@ footer {
 }
 
 footer p {
-    margin: 0;
+    margin: 4;
 }
 
 @media (max-width: 768px) {
