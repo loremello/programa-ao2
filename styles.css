@@ -10,5 +10,18 @@ body {
 #titulo {
     text-align: center;
 }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Escolha a cor desejada aqui */
+}
+
+#titulo {
+    text-align: center;
+}
 
 
